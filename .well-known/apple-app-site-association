@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "X96D77D8GW.com.wandererstudio.gbcare"
+        ],
+        "components": [
+          {
+            "/": "/tasks",
+            "comment": "Matches URL with a path /tasks"
+          },
+          {
+            "/": "/addPet",
+            "comment": "Matches URL with a path /addPet"
+          }
+        ]
+      }
+    ]
+  }
+}
