@@ -4,7 +4,8 @@
     "details": [
       {
         "appIDs": [
-          "X96D77D8GW.com.wandererstudio.gbcare"
+          "X96D77D8GW.com.wandererstudio.gbcare",
+          "X96D77D8GW.com.wandererstudio.gbcare-dev"
         ],
         "components": [
           {
@@ -17,6 +18,12 @@
           }
         ]
       }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "X96D77D8GW.com.wandererstudio.gbcare",
+      "X96D77D8GW.com.wandererstudio.gbcare-dev"
     ]
   }
 }
