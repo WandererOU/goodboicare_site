@@ -7,7 +7,7 @@
       "namespace": "android_app",
       "package_name": "com.wandererstudio.gbcare",
       "sha256_cert_fingerprints": [
-        "96:70:5B:91:EE:5F:77:A1:A2:73:8B:78:53:2E:83:70:AC:FC:4F:33:1D:B4:93:FB:74:7B:08:84:67:BD:C6:E1"
+        "2C:A1:37:5F:23:D9:29:8C:74:86:3A:5D:71:BC:B5:26:90:88:15:8F:6A:BB:F7:F1:E4:A7:B1:99:D3:28:A6:D3"
       ]
     }
   },
@@ -19,7 +19,7 @@
       "namespace": "android_app",
       "package_name": "com.wandererstudio.gbcare.dev",
       "sha256_cert_fingerprints": [
-        "96:70:5B:91:EE:5F:77:A1:A2:73:8B:78:53:2E:83:70:AC:FC:4F:33:1D:B4:93:FB:74:7B:08:84:67:BD:C6:E1"
+        "2C:A1:37:5F:23:D9:29:8C:74:86:3A:5D:71:BC:B5:26:90:88:15:8F:6A:BB:F7:F1:E4:A7:B1:99:D3:28:A6:D3"
       ]
     }
   }
