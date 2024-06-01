@@ -19,7 +19,8 @@
       "namespace": "android_app",
       "package_name": "com.wandererstudio.gbcare.dev",
       "sha256_cert_fingerprints": [
-        "2C:A1:37:5F:23:D9:29:8C:74:86:3A:5D:71:BC:B5:26:90:88:15:8F:6A:BB:F7:F1:E4:A7:B1:99:D3:28:A6:D3"
+        "2C:A1:37:5F:23:D9:29:8C:74:86:3A:5D:71:BC:B5:26:90:88:15:8F:6A:BB:F7:F1:E4:A7:B1:99:D3:28:A6:D3",
+        "B4:E3:BC:A5:B2:BC:A7:8E:62:BC:5B:D7:9C:88:4A:AE:E8:7F:48:2E:B7:4C:6F:5B:1B:67:72:4A:5D:8C:7E:43"
       ]
     }
   }
