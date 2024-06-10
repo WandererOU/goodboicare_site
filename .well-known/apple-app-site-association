@@ -15,6 +15,10 @@
           {
             "/": "/addPet",
             "comment": "Matches URL with a path /addPet"
+          },
+          {
+            "/": "/signin",
+            "comment": "Matches URL with a path /signin"
           }
         ]
       }
