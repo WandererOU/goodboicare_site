@@ -1,0 +1,16 @@
+body { margin: 0px; min-width: 1200px; }
+header { height: 100px; padding: 0px 20px; display: flex; flex: 1; flex-direction: row; align-items: center; background-color: #fff; position: sticky;}
+header > h1 { margin-left: 40px;}
+h1, h2, h3 { font-family: "Nunito", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal;}
+p, a, span { font-family: "Lato", sans-serif; font-weight: 400; font-style: normal; }
+a { display: inline-block; width: 100px; margin: 0px 20px; text-decoration: none; color: #131316 }
+.flex-space { flex: 1; }
+.hero { padding: 0px 20px; }
+.hero__contents-wrapper { background-color: #DDDAE7; border-radius: 64px; display: flex; flex-direction: row; }
+.hero__contents-text { display: flex; flex: 6; flex-direction: column; min-width: 500px; padding-left: 40px; }
+.hero__contents-text > h2 { font-size: 74px; margin-bottom: 0px; }
+.hero__contents-text > p { display: flex; max-width: 680px; font-size: 22px; margin-bottom: 40px;}
+.hero__contents-image { display: flex; flex: 4; padding-right: 20px;}
+.hero__contents-image > img { margin-top: 60px; margin-bottom: 40px;}
+.hero__contents-buttons { display: flex; flex-direction: row; row-gap: 40px;}
+.hero__contents-buttons > a { width: 200px; margin: 0px; margin-right: 20px }
