@@ -2,7 +2,7 @@ body { margin: 0px; min-width: 1200px; }
 header { height: 100px; padding: 0px 20px; display: flex; flex: 1; flex-direction: row; align-items: center; background-color: #fff; position: sticky;}
 header > h1 { margin-left: 40px;}
 h1, h2, h3 { font-family: "Nunito", sans-serif; font-optical-sizing: auto; font-weight: 700; font-style: normal;}
-p, a, span { font-family: "Lato", sans-serif; font-weight: 400; font-style: normal; }
+p, a, span, label { font-family: "Lato", sans-serif; font-weight: 400; font-style: normal; }
 a { display: inline-block; width: 100px; margin: 0px 20px; text-decoration: none; color: #131316 }
 .flex-space { flex: 1; }
 .hero { padding: 0px 20px; }
@@ -14,3 +14,5 @@ a { display: inline-block; width: 100px; margin: 0px 20px; text-decoration: none
 .hero__contents-image > img { margin-top: 60px; margin-bottom: 40px;}
 .hero__contents-buttons { display: flex; flex-direction: row; row-gap: 40px;}
 .hero__contents-buttons > a { width: 200px; margin: 0px; margin-right: 20px }
+button.primary { background-color: #131316; color: #fff; border: none; border-radius: 12px; padding: 12px 18px; font-size: 16px; cursor: pointer; text-transform: uppercase; font-weight: 200; font-family: "Lato" }
+input, textarea, select { background-color: #E9E9EC; border: none; border-radius: 12px; padding: 12px 18px; font-size: 16px; cursor: pointer; font-weight: 200; font-family: "Lato" }

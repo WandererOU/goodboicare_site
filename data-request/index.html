@@ -1,13 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>GoodBoi Care - Data Request</title>
+    <meta name="viewport" />
+    <meta
+      name="description"
+      content="Join other pet lovers in managing your pet's health and happiness with ease. Track their daily activities, manage their medication and feeding records, set reminders for important events, and share this information with other caretakers—all in one place."
+    />
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato&family=Nunito+Sans:ital,opsz,wght@1,6..12,700&family=Nunito:wght@700&family=Roboto:wght@300;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../public/css/index.css" />
+    <style>
+      .content {
+        flex: 1;
+      }
+      .hero__contents-wrapper {
+        padding: 20px;
+      }
+      .hero__contents-wrapper > .content > h2 {
+        font-size: 32px;
+      }
+      .hero__contents-wrapper > .content > p {
+        font-size: 18px;
+      }
+      .form__wrapper {
+        flex: 1;
+        background-color: #fff;
+        border-radius: 48px;
+        margin-left: 40px;
+        padding: 40px;
+        min-height: 400px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+      }
+      .form__group {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        margin-top: 20px;
+      }
+      .form__group > label {
+        font-size: 20px;
+        font-weight: 700;
+      }
+      .form__button {
+        width: 100%;
+        margin-top: 20px;
+      }
+      textarea {
+        resize: vertical;
+        min-height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- HEADER SECTION -->
+      <header>
+        <img
+          src="/public/images/icon.png"
+          alt="App Icon"
+          width="65px"
+          height="65px"
+        />
+        <h1>GoodBoi Care</h1>
+        <div class="flex-space"></div>
+        <a href="https://goodboicare.com/terms">Terms of Use</a>
+        <a href="https://goodboicare.com/privacy">Privacy Policy</a>
+      </header>
+      <main class="hero">
+        <div class="hero__contents-wrapper">
+          <div class="content">
+            <h2>Data Request</h2>
+            <p>
+              Use the following form to make a request for your account to be
+              deleted, or to request information on what data is stored for your
+              account.
+            </p>
+            <p>
+              Please note that these requests will be processed manually and may
+              take up to one calendar month to be fulfilled.
+            </p>
+          </div>
+          <div class="form__wrapper">
+            <form
+              id="dataRequestForm"
+              target="_blank"
+              method="post"
+              action="https://api-prod.goodboicare.com/notifications/request-data"
+            >
+              <div class="form__group">
+                <label for="requestType">Request Type</label>
+                <select
+                  id="requestType"
+                  name="requestType"
+                  tabindex="1"
+                  required
+                >
+                  <option value="">Click to select</option>
+                  <option value="deletion">Account Deletion</option>
+                  <option value="data">User Data Request</option>
+                </select>
+              </div>
 
-<head>
-  <meta charset="UTF-8">
-  <title>GoodBoi Care - Data Request</title>
-</head>
+              <div class="form__group">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  tabindex="1"
+                  id="email"
+                  name="emailAddress"
+                  placeholder="Input the email connected to your account"
+                  required
+                />
+              </div>
 
-<body>
-  <p>To be implemented</p>
-</body>
+              <div class="form__group">
+                <label for="description">Description</label>
+                <textarea
+                  id="description"
+                  tabindex="1"
+                  name="description"
+                  placeholder="(Optional) Provide any details regarding your request to delete or access information"
+                  required
+                ></textarea>
+              </div>
 
+              <button tabindex="2" type="submit" class="form__button primary">
+                SUBMIT
+              </button>
+            </form>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
